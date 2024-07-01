@@ -63,13 +63,18 @@
                 <div class="content">
                     <section id="description">
                         <h1>Description</h1>
-                        <p>The goal of this task is...</p>
-                        <p>Domain adaptation in acoustic...</p>
+                        <p>The goal of this task is to Classify a test audio snippet having either speaking or singing or both modalities into predefined classes.
+</p>
+                        <p>The Masked Singer (TMS) is a singing reality TV show that is produced and aired in more than 50 countries worldwide including Deutschland, United States of America, Thailand, China, and the UK. Originally conceptualized and aired in South Korea as ”The King of Mask Singer”, the show has gained popu- larity due to its mystery factor. The format features the celebrities/athletes/famous TV anchors/artists/etc. who perform a song anonymously in elaborate masks or head-to-toe costumes. The panelists will then guess the identity based on clues the singers give about themselves. After their performances, the singers are voted by the audiences in each round while the panelists do not participate in the vote. The singer who receives the fewest votes in each round is unmasked and eliminated until the winner is declared.
+                        Inspired form the above reality show is our problem statement. The problem of bridging the gap between the two audio modalities of speaking and singing has been sparsely researched due to the non-availability of large enough open dataset, or the dataset being proprietary. Furthermore, the contestants appearing on the show may not be professional singers and thus may have very little to no publicly available data of their singing voice. To this end, for this competition we provide a dataset including speaking and singing of the contestants who have already appeared on the show.
+                        
+                        The task for this competition is to learn a joint representation of singing and spoken voice samples from the same person such that when tested on test samples of either speaking or singing voice of a person, it should, correctly recognise the person. Such a representation, ideally, should be able to identify a person irrespective of their speaking or singing.
+                        </p>
                         <figure>
                             <div class="row">
                                 <div class="col">
-                                    <img class="img img-responsive" src="flowchart.png" alt="Flowchart"/>
-                                    <figcaption>Figure 1: Overview of acoustic scene classification system.</figcaption>
+                                    <img class="img img-responsive" src="/images/ Fig 1" alt="Flowchart"/>
+                                    <figcaption>Figure 1: The multimodal voice recognition system and overview of the competition.</figcaption>
                                 </div>
                             </div>
                         </figure>
